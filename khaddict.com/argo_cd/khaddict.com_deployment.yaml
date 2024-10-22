@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: khaddict-deployment
+  namespace: khaddict-namespace
+  labels:
+    app: khaddict
+  annotations:
+    argocd-image-updated-at: "{{TIMESTAMP}}"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: khaddict
+  template:
+    metadata:
+      labels:
+        app: khaddict
+    spec:
+      containers:
+      - name: khaddict
+        image: khaddict/khaddict:latest
+        ports:
+        - containerPort: 80
