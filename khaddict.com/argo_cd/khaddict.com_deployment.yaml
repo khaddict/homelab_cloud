@@ -6,7 +6,7 @@ metadata:
   labels:
     app: khaddict
   annotations:
-    argocd-image-updated-at: "{{TIMESTAMP}}"
+    argocd-image-updated-at: "20241026001631"
 spec:
   replicas: 3
   selector:
