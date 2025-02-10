@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: homepage-cert-secret
+  namespace: homepage
+type: kubernetes.io/tls
+stringData:
+  tls.crt: |
+    <path:kv/data/ca/applications/homepage.homelab.lan#homepage.homelab.lan.crt>
+  tls.key: |
+    <path:kv/data/ca/applications/homepage.homelab.lan#homepage.homelab.lan.key>

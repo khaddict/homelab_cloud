@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: khaddict.com
+  namespace: argocd
+spec:
+  destination:
+    namespace: khaddict
+    server: https://kubernetes.default.svc
+  source:
+    path: apps/khaddict.com
+    repoURL: https://github.com/khaddict/homelab_cloud.git
+    targetRevision: main
+    plugin:
+      name: argocd-vault-plugin-helm
+      env:
+        - name: HELM_ARGS
+          value: -f values.yaml
+  project: default
