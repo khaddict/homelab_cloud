@@ -1,0 +1,5 @@
+app: dnsutils
+namespace: tools
+
+pod:
+  name: dnsutils

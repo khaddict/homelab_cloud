@@ -1,0 +1,4 @@
+apiVersion: v2
+name: app-of-apps
+description: An app of apps to deploy things to my Kubernetes cluster.
+version: 0.0.1

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: khaddict-cert-secret
+  namespace: khaddict
+type: kubernetes.io/tls
+stringData:
+  tls.crt: |
+    <path:kv/data/ca/applications/khaddict.homelab.lan#khaddict.homelab.lan.crt>
+  tls.key: |
+    <path:kv/data/ca/applications/khaddict.homelab.lan#khaddict.homelab.lan.key>

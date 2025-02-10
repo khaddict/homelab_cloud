@@ -1,0 +1,12 @@
+app: khaddict
+namespace: khaddict
+image: nginx:stable
+replicas: 3
+
+deployment:
+  name: khaddict
+
+service:
+  name: khaddict
+  type: ClusterIP
+  port: 80
