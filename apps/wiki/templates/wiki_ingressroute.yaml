@@ -1,0 +1,16 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: wiki
+  namespace: wiki
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`wiki.homelab.lan`)
+      kind: Rule
+      services:
+        - name: wiki
+          port: 80
+  tls:
+    secretName: wiki-cert-secret

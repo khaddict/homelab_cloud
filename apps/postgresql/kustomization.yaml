@@ -1,0 +1,7 @@
+resources:
+  - psql_namespace.yaml
+  - psql_pv.yaml
+  - psql_pvc.yaml
+  - psql_deployment.yaml
+  - psql_service.yaml
+  - psql_configmap.yaml
