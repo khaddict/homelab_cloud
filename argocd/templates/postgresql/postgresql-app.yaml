@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: postgresql
+  namespace: argocd
+spec:
+  destination:
+    namespace: postgresql
+    server: https://kubernetes.default.svc
+  source:
+    path: apps/postgresql
+    repoURL: https://github.com/khaddict/homelab_cloud.git
+    targetRevision: main
+    plugin:
+      name: argocd-vault-plugin-kustomize
+      env: []
+  project: default

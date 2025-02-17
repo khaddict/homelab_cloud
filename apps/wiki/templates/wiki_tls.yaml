@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: wiki-cert-secret
+  namespace: wiki
+type: kubernetes.io/tls
+stringData:
+  tls.crt: |
+    <path:kv/data/ca/applications/wiki.homelab.lan#wiki.homelab.lan.crt>
+  tls.key: |
+    <path:kv/data/ca/applications/wiki.homelab.lan#wiki.homelab.lan.key>

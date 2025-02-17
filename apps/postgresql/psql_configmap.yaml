@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgresql-credentials
+  namespace: postgresql
+data:
+  POSTGRES_DB: wiki
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: <path:kv/data/kubernetes#postgresql_password>
