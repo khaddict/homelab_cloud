@@ -86,7 +86,7 @@ data:
         - Traefik:
             icon: traefik
             href: https://traefik.homelab.lan
-            description: https://traefik.homelab.lan
+            description: traefik.homelab.lan
             widget:
               type: traefik
               url: https://traefik.homelab.lan
