@@ -26,3 +26,5 @@ services:
     password: <path:kv/data/kubernetes#homepage_argocd_token>
   traefik:
     password: <path:kv/data/kubernetes#traefik_dashboard_secret>
+  pbs:
+    password: <path:kv/data/kubernetes#homepage_pbs_token>

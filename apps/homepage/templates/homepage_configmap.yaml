@@ -65,6 +65,15 @@ data:
               username: api@pam!homepage
               password: {{ .Values.services.proxmox.password }}
               node: n2-cls1
+        - Proxmox Backup Server:
+            icon: proxmox.png
+            href: https://pbs.homelab.lan:8007
+            description: pbs.homelab.lan
+            widget:
+              type: proxmoxbackupserver
+              url: https://pbs.homelab.lan:8007
+              username: api@pam!homepage
+              password: {{ .Values.services.pbs.password }}
     - Configuration Management & Automation:
         - Saltmaster:
             icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/saltstack.png?raw=true
