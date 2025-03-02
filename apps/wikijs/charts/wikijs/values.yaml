@@ -164,7 +164,7 @@ postgresql:
   ## postgresqlHost override postgres database host
   ## Default to postgres
   ##
-  postgresqlHost: postgresql.postgresql.svc.cluster.local
+  postgresqlHost: postgresql.wikijs.svc.cluster.local
   ## postgresqlPort port for postgres
   ## Default to 5432
   ##

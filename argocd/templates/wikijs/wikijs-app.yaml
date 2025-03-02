@@ -1,17 +1,19 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: postgresql
+  name: wikijs
   namespace: argocd
 spec:
   destination:
-    namespace: postgresql
+    namespace: wikijs
     server: https://kubernetes.default.svc
   source:
-    path: apps/postgresql
+    path: apps/wikijs
     repoURL: https://github.com/khaddict/homelab_cloud.git
     targetRevision: main
     plugin:
-      name: argocd-vault-plugin-kustomize
-      env: []
+      name: argocd-vault-plugin-helm
+      env:
+        - name: HELM_ARGS
+          value: -f values.yaml
   project: default

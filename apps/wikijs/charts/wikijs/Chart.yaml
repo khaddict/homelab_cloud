@@ -1,5 +1,5 @@
 apiVersion: v2
-name: wiki-chart
+name: wikijs
 description: A Helm chart for Wiki.js
 type: application
 version: 0.1.0

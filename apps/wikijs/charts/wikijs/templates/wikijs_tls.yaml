@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: wiki-cert-secret
-  namespace: wiki
+  namespace: wikijs
 type: kubernetes.io/tls
 stringData:
   tls.crt: |
