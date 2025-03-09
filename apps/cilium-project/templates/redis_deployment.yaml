@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  namespace: "{{ .Values.namespace }}"
+  labels:
+    client: "{{ .Values.client }}"
+spec:
+  replicas: {{ .Values.redis.replicas }}
+  selector:
+    matchLabels:
+      app: redis
+      client: "{{ .Values.client }}"
+  template:
+    metadata:
+      labels:
+        app: redis
+        client: "{{ .Values.client }}"
+    spec:
+      containers:
+      - name: redis
+        image: "{{ .Values.redis.image }}"
+        ports:
+        - containerPort: {{ .Values.redis.port }}
