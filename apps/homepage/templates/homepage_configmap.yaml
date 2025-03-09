@@ -101,6 +101,10 @@ data:
               url: https://traefik.homelab.lan
               username: admin
               password: {{ .Values.services.traefik.password }}
+        - Hubble:
+            icon: cilium
+            href: https://hubble.homelab.lan
+            description: hubble.homelab.lan
     - Monitoring:
         - Prometheus:
             icon: prometheus
