@@ -184,11 +184,6 @@ data:
             icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/fastapi.png?raw=true
             href: https://api.homelab.lan/docs
             description: api.homelab.lan
-    - Documentation:
-        - Wiki.js:
-            icon: wikijs
-            href: https://wiki.homelab.lan
-            description: wiki.homelab.lan
   widgets.yaml: |
     - kubernetes:
         cluster:

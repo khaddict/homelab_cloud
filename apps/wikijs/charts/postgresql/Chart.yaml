@@ -1,9 +1,0 @@
-apiVersion: v2
-name: postgresql
-description: A Helm chart for PostgreSQL
-type: application
-version: 0.1.0
-appVersion: "1.0.0"
-maintainers:
-  - name: khaddict
-    email: khaddict@homelab.lan
