@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: khaddict-cert-secret
-  namespace: khaddict
+  name: {{ .Values.secret.name }}-cert-secret
+  namespace: {{ .Values.namespace }}
 type: kubernetes.io/tls
 stringData:
   tls.crt: |

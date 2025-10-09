@@ -9,11 +9,11 @@ data:
   kubernetes.yaml: |
     mode: cluster
   settings.yaml: |
-    title: homelab.lan
+    title: Khaddict homepage
     background:
       image: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/khazix.jpg?raw=true
       opacity: 30
-    favicon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/cool.png?raw=true
+    favicon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/khazix_pc.png?raw=true
     language: en
     headerStyle: boxed
     quicklaunch:

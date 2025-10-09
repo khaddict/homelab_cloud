@@ -8,7 +8,7 @@ spec:
     - websecure
   routes:
     - kind: Rule
-      match: Host(`khaddict.homelab.lan`)
+      match: Host(`{{ .Values.ingress.name }}`)
       services:
         - name: {{ .Values.service.name }}
           port: 80

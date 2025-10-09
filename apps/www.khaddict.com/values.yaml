@@ -1,0 +1,18 @@
+app: www-khaddict
+namespace: www-khaddict
+image: nginx:stable
+replicas: 3
+
+deployment:
+  name: www-khaddict
+
+service:
+  name: www-khaddict
+  type: ClusterIP
+  port: 80
+
+secret:
+  name: www-khaddict
+
+ingress:
+  name: khaddict.homelab.lan

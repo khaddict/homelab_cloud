@@ -10,9 +10,8 @@ data:
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Khaddict's website</title>
-        
-        <link rel="icon" href="https://github.com/khaddict/homelab_cloud/blob/main/apps/khaddict.com/images/cool.png?raw=true" type="image/png">
+        <title>Khaddict website</title>
+        <link rel="icon" href="https://github.com/khaddict/homelab_cloud/blob/main/apps/site.khaddict.com/images/khazix_pc.png?raw=true" type="image/png">
 
         <style>
             body {
@@ -22,7 +21,10 @@ data:
                 height: 100vh;
                 margin: 0;
                 font-family: Arial, sans-serif;
-                background-color: #f0f0f0;
+                background:
+                radial-gradient(1200px 600px at 70% -10%, #312e81 10%, transparent 60%),
+                radial-gradient(900px 500px at -10% 110%, #581c87 10%, transparent 60%),
+                #0a0a1a;
             }
 
             .container {
@@ -32,6 +34,7 @@ data:
             h1 {
                 font-size: 2rem;
                 margin-bottom: 20px;
+                color: #fff;
             }
 
             button {
@@ -53,7 +56,9 @@ data:
 
         <div class="container">
             <h1>💥 Tester c'est douter 😇</h1>
-            <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">Déployer en prod</button>
+            <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">
+                Déployer en prod
+            </button>
         </div>
 
     </body>
