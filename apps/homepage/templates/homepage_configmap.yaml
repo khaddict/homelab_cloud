@@ -139,8 +139,8 @@ data:
     - Management & network:
         - TP-Link:
             icon: tp-link
-            href: http://tp-link.homelab.lan
-            description: tp-link.homelab.lan
+            href: http://tplink.homelab.lan
+            description: tplink.homelab.lan
         - Freebox:
             icon: freebox-revolution
             href: http://mafreebox.freebox.fr
