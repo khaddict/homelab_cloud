@@ -1,0 +1,15 @@
+app: changedetection
+namespace: changedetection
+
+deployment:
+  replicas: 1
+  image: ghcr.io/dgtlmoon/changedetection.io:latest
+
+service:
+  type: ClusterIP
+  port: 5000
+  targetPort: 5000
+  protocol: TCP
+
+pvc:
+  storage: 5Gi
