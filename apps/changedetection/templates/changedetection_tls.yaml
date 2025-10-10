@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{ .Values.app }}-cert-secret
+  namespace: {{ .Values.namespace }}
+type: kubernetes.io/tls
+stringData:
+  tls.crt: |
+    <path:kv/data/ca/applications/changedetection.homelab.lan#changedetection.homelab.lan.crt>
+  tls.key: |
+    <path:kv/data/ca/applications/changedetection.homelab.lan#changedetection.homelab.lan.key>

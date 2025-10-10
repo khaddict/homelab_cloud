@@ -11,5 +11,8 @@ service:
   targetPort: 5000
   protocol: TCP
 
+ingressroute:
+  name: changedetection.homelab.lan
+
 pvc:
   storage: 5Gi
