@@ -28,3 +28,5 @@ services:
     password: <path:kv/data/kubernetes#traefik_dashboard_secret>
   pbs:
     password: <path:kv/data/kubernetes#homepage_pbs_token>
+  changedetection:
+    password: <path:kv/data/kubernetes#homepage_changedetection_token>

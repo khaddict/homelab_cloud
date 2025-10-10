@@ -9,3 +9,6 @@ spec:
   resources:
     requests:
       storage: {{ .Values.pvc.storage }}
+  storageClassName: local-path
+  volumeMode: Filesystem
+  volumeName: {{ .Values.pvc.volumeName }}

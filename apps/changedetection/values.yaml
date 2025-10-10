@@ -16,3 +16,4 @@ ingressroute:
 
 pvc:
   storage: 5Gi
+  volumeName: pvc-6bf464bd-ae52-4ff9-aef9-d48216f591a7
