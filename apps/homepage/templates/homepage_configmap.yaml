@@ -115,7 +115,7 @@ data:
             icon: cilium
             href: https://hubble.homelab.lan
             description: hubble.homelab.lan
-    - Monitoring:
+    - Monitoring & Logs:
         - Prometheus:
             icon: prometheus
             href: http://prometheus.homelab.lan:9090
@@ -131,6 +131,10 @@ data:
             icon: grafana
             href: https://grafana.homelab.lan:3000
             description: grafana.homelab.lan
+        - ELK Stack:
+            icon: elastic
+            href: https://elk.homelab.lan:5601
+            description: elk.homelab.lan
         - ChangeDetection.io:
             icon: changedetection
             href: https://changedetection.homelab.lan
@@ -147,11 +151,6 @@ data:
               type: uptimekuma
               url: http://uptimekuma.homelab.lan:3001
               slug: khaddict
-    - Logs:
-        - ELK Stack:
-            icon: elastic
-            href: https://elk.homelab.lan:5601
-            description: elk.homelab.lan
     - Management & network:
         - TP-Link:
             icon: tp-link
