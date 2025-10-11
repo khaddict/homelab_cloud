@@ -6,60 +6,64 @@ metadata:
 data:
   index.html: |
     <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Khaddict website</title>
-        <link rel="icon" href="https://github.com/khaddict/homelab_cloud/blob/main/apps/site.khaddict.com/images/khazix_pc.png?raw=true" type="image/png">
+        <link
+          rel="icon"
+          href="https://github.com/khaddict/homelab_cloud/blob/main/apps/site.khaddict.com/images/khazix_pc.png?raw=true"
+          type="image/png"
+        />
 
         <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                font-family: Arial, sans-serif;
-                background:
-                radial-gradient(1200px 600px at 70% -10%, #312e81 10%, transparent 60%),
-                radial-gradient(900px 500px at -10% 110%, #581c87 10%, transparent 60%),
-                #0a0a1a;
-            }
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:
+              radial-gradient(1200px 600px at 70% -10%, #312e81 10%, transparent 60%),
+              radial-gradient(900px 500px at -10% 110%, #581c87 10%, transparent 60%),
+              #0a0a1a;
+          }
 
-            .container {
-                text-align: center;
-            }
+          .container {
+            text-align: center;
+          }
 
-            h1 {
-                font-size: 2rem;
-                margin-bottom: 20px;
-                color: #fff;
-            }
+          h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #fff;
+          }
 
-            button {
-                padding: 10px 20px;
-                font-size: 1rem;
-                cursor: pointer;
-                background-color: #f44336;
-                color: white;
-                border: none;
-                border-radius: 5px;
-            }
+          button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: #f44336;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+          }
 
-            button:hover {
-                background-color: #e53935;
-            }
+          button:hover {
+            background-color: #e53935;
+          }
         </style>
-    </head>
-    <body>
-
+      </head>
+      <body>
         <div class="container">
-            <h1>💥 Tester c'est douter 😇</h1>
-            <button onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';">
-                Déployer en prod
-            </button>
+          <h1>🚨 The project is on hold. Do NOT press the red button. 💥</h1>
+          <button
+            onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';"
+          >
+            Deploy to production
+          </button>
         </div>
-
-    </body>
+      </body>
     </html>
