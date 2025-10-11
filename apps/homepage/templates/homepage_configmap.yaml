@@ -32,7 +32,7 @@ data:
               href: https://github.com/khaddict
               description: khaddict
         - khaddict.com:
-            - icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/cool.png?raw=true
+            - icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/khazix_pc.png?raw=true
               href: https://khaddict.com
               description: khaddict.com
     - Socials:
@@ -139,6 +139,14 @@ data:
               type: changedetectionio
               url: https://changedetection.homelab.lan
               key: {{ .Values.services.changedetection.password }}
+        - Uptime Kuma:
+            icon: uptime-kuma
+            href: http://uptimekuma.homelab.lan:3001
+            description: uptimekuma.homelab.lan
+            widget:
+              type: uptimekuma
+              url: http://uptimekuma.homelab.lan:3001
+              slug: khaddict
     - Logs:
         - ELK Stack:
             icon: elastic
