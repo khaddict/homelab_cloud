@@ -13,7 +13,7 @@ data:
         <title>Khaddict hub</title>
         <link
           rel="icon"
-          href="https://github.com/khaddict/homelab_cloud/blob/main/apps/www.khaddict.com/images/khazix_pc.png?raw=true"
+          href="https://raw.githubusercontent.com/khaddict/homelab_cloud/refs/heads/main/apps/www.khaddict.com/images/khazix_pc.png"
           type="image/png"
         />
 
@@ -123,7 +123,7 @@ data:
         <main class="wrap" aria-label="Khaddict links">
           <a class="card" href="https://site.khaddict.com" target="_blank" rel="noopener">
             <img
-              src="https://github.com/khaddict/homelab_cloud/blob/main/apps/www.khaddict.com/images/www.png?raw=true"
+              src="https://raw.githubusercontent.com/khaddict/homelab_cloud/refs/heads/main/apps/www.khaddict.com/images/www.png"
               alt="Website"
             />
             <h2>Website</h2>
@@ -132,7 +132,7 @@ data:
 
           <a class="card" href="https://homepage.khaddict.com" target="_blank" rel="noopener">
             <img
-              src="https://github.com/khaddict/homelab_cloud/blob/main/apps/www.khaddict.com/images/homepage.png?raw=true"
+              src="https://raw.githubusercontent.com/khaddict/homelab_cloud/refs/heads/main/apps/www.khaddict.com/images/homepage.png"
               alt="Homepage"
             />
             <h2>Homepage</h2>
@@ -141,7 +141,7 @@ data:
 
           <a class="card" href="https://github.com/khaddict" target="_blank" rel="noopener">
             <img
-              src="https://github.com/khaddict/homelab_cloud/blob/main/apps/www.khaddict.com/images/github.png?raw=true"
+              src="https://raw.githubusercontent.com/khaddict/homelab_cloud/refs/heads/main/apps/www.khaddict.com/images/github.png"
               alt="GitHub"
             />
             <h2>GitHub</h2>
@@ -150,7 +150,7 @@ data:
 
           <a class="card" href="https://status.khaddict.com" target="_blank" rel="noopener">
             <img
-              src="https://github.com/khaddict/homelab_cloud/blob/main/apps/www.khaddict.com/images/status.png?raw=true"
+              src="https://raw.githubusercontent.com/khaddict/homelab_cloud/refs/heads/main/apps/www.khaddict.com/images/status.png"
               alt="Status"
             />
             <h2>Status</h2>
