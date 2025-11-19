@@ -6,6 +6,6 @@ metadata:
 type: kubernetes.io/tls
 stringData:
   tls.crt: |
-    <path:kv/data/ca/applications/changedetection.homelab.lan#changedetection.homelab.lan.crt>
+    <path:kv/data/easypki/application/changedetection.homelab.lan#changedetection.homelab.lan.cert.pem>
   tls.key: |
-    <path:kv/data/ca/applications/changedetection.homelab.lan#changedetection.homelab.lan.key>
+    <path:kv/data/easypki/application/changedetection.homelab.lan#changedetection.homelab.lan.key.pem>

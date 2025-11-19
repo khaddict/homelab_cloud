@@ -6,6 +6,6 @@ metadata:
 type: kubernetes.io/tls
 stringData:
   tls.crt: |
-    <path:kv/data/ca/applications/site.khaddict.homelab.lan#site.khaddict.homelab.lan.crt>
+    <path:kv/data/easypki/application/site.khaddict.homelab.lan#site.khaddict.homelab.lan.cert.pem>
   tls.key: |
-    <path:kv/data/ca/applications/site.khaddict.homelab.lan#site.khaddict.homelab.lan.key>
+    <path:kv/data/easypki/application/site.khaddict.homelab.lan#site.khaddict.homelab.lan.key.pem>
