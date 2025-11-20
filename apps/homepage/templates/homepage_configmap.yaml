@@ -171,7 +171,7 @@ data:
     - Tools:
         - Orquesta Evaluator:
             icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/yaql.png?raw=true
-            href: http://orquestaevaluator.homelab.lan:5000
+            href: https://orquestaevaluator.homelab.lan:8443
             description: orquestaevaluator.homelab.lan
         - YAML Lint:
             icon: https://github.com/khaddict/homelab_cloud/blob/main/apps/homepage/images/yaml.png?raw=true
